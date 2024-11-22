@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <header>
+        <nav id="desktop-nav">
+            <div class="logo">
+                Swine Fever
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="swine-fever">
+            <h2>Swine Fever Project</h2>
+            <p>This project is an integrated web application developed to assist researchers and veterinarians in tracking and managing African swine fever outbreaks. My primary goal with this application was to create a reliable, user-friendly tool that uses machine learning to analyze and classify test results for African swine fever and then consolidates these findings into a broader, actionable map for disease density and spread.</p>
+            <p>I leveraged many resources from Microsoft Azure to complete and deploy this project. Among these resources are:</p>
+            <ul class="resource-list">
+                <li>Custom Vision</li>
+                <li>Key Vault</li>
+                <li>Storage Accounts</li>
+                <li>App Services</li>
+                <li>Managed Identity</li>
+            </ul>
+            <p>On the backend, I've designed and implemented a RESTful API that serves a frontend built in React. User account management, including sign-up and sign-in functionality, is secured and utilizes Azure for both image storage and database management, helping ensure data persistence and secure access to user data. To make this project scalable, I integrated Azure Key Vault to manage secrets and used Application Insights to monitor performance. The result is a tool that not only helps track a major agricultural disease but also creates a collaborative network for researchers and agricultural experts.</p>
+        </section>
+    </main>
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="btn btn-color-1" onclick="scrollToTop()">Scroll to Top</button>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
